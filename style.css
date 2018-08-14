@@ -11,8 +11,13 @@ body {
 }
 
 .container .box {
-    width: 20px;
-    height: 20px;
-    background: #000;
+    width: 24px;
+    height: 24px;
     float: left;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.container .box:hover {
+    background: #000;
 }

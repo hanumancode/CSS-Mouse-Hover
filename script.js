@@ -1,3 +1,3 @@
-for (var i = 1; i <= 100; i++) {
+for (var i = 1; i <= 2000; i++) {
     $('.container').append('<div class="box"></div>');
 }
