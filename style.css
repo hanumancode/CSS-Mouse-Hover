@@ -16,8 +16,46 @@ body {
     float: left;
     background: transparent;
     box-sizing: border-box;
+    transition: 1s ease-in-out;
 }
 
 .container .box:hover {
     background: #000;
+    transition: 0s ease-in-out;
+}
+
+.container .box:hover:nth-child(9n + 1) {
+    background: #ff598f;
+}
+
+.container .box:hover:nth-child(9n + 2) {
+    background: #fd8a5e;
+}
+
+.container .box:hover:nth-child(9n + 3) {
+    background: #e0e300;
+}
+
+.container .box:hover:nth-child(9n + 4) {
+    background: #01dddd;
+}
+
+.container .box:hover:nth-child(9n + 5) {
+    background: #00bfaf;
+}
+
+.container .box:hover:nth-child(9n + 6) {
+    background: #0070bf;
+}
+
+.container .box:hover:nth-child(9n + 7) {
+    background: #00bf50;
+}
+
+.container .box:hover:nth-child(9n + 8) {
+    background: #bf0010;
+}
+
+.container .box:hover:nth-child(9n + 9) {
+    background: #008080;
 }
